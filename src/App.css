@@ -1,8 +1,7 @@
 #root {
-  max-width: 1280px;
+  
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .logo {
@@ -40,3 +39,31 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Footer styling */
+.footer{
+height: 300px;
+box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+/* Gradient */
+border: 1px dashed #9747FF;
+border-radius: 5px;
+}
+
+.footer img{
+  width: 40px;
+  height:40px;
+}
+
+/* Contact page styling */
+.contact{
+  height:100vh
+}
+
+
+.contact h1{
+  font-size: 69px;
+}
+
