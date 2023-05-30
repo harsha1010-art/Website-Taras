@@ -1,0 +1,69 @@
+#root {
+  
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Footer styling */
+.footer{
+height: 300px;
+box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+/* Gradient */
+border: 1px dashed #9747FF;
+border-radius: 5px;
+}
+
+.footer img{
+  width: 40px;
+  height:40px;
+}
+
+/* Contact page styling */
+.contact{
+  height:100vh
+}
+
+
+.contact h1{
+  font-size: 69px;
+}
+
