@@ -1,9 +1,14 @@
+import { motion } from "framer-motion"
 function Data() {
     return (
-        <><div className="our-heading">
+        <><motion.div initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6 }} className="our-heading">
             Our <span>Data</span>
-        </div><div className="single">
-                <div class="card1" style={{width: '70rem', height:'20rem'}}>
+        </motion.div>< motion.div initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.7 }} className="single">
+                <div class="card1" style={{ width: '70rem', height: '20rem' }}>
                     <div class="card-body">
                         <h1 className="projects">71+</h1>
                         <p className="prjct">Projects</p>
@@ -14,11 +19,11 @@ function Data() {
                         <h1 className="reviews">100%</h1>
                         <p className="rvws">Reviews</p>
                         <div className="line3"></div>
-                        
+
                     </div>
                 </div>
 
-            </div></>
+            </motion.div></>
     )
 }
 export default Data
