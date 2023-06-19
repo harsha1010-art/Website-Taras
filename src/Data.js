@@ -3,11 +3,11 @@ function Data() {
     return (
         <><motion.div initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }} className="our-heading">
+            transition={{ duration: 0.6 }} viewport={{ once: true }} className="our-heading">
             Our <span>Data</span>
         </motion.div>< motion.div initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.7 }} className="single">
+            transition={{ duration: 0.7 }} viewport={{ once: true }} className="single">
                 <div class="card1" style={{ width: '70rem', height: '20rem' }}>
                     <div class="card-body">
                         <h1 className="projects">71+</h1>

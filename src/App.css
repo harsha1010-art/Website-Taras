@@ -1,7 +1,7 @@
 .main {
   background: linear-gradient(45deg, #F3D7EF, #96DDFC, #F3D7EF);
   background-size: cover;
-  height: 1130vh;
+  height: 1250vh;
   width: 100%;
   scroll-behavior: smooth;
   margin: 0
@@ -588,7 +588,69 @@ span {
 }
 
 .card:hover::before {
-  content: "Some quick example text to build on the card title and make up the bulk of the card's content.";
+  content: "Boost your online presence with our professional website solution. Engage your audience with visually appealing design and user-friendly functionality.";
+
+  /* Add an empty content */
+  position: absolute;
+  /* Set the position to absolute to position the text on top */
+  top: 0;
+  /* Position the text on top */
+  left: 0;
+  /* Position the text on the left */
+  width: 100%;
+  /* Set the width to 100% to fill the card */
+  height: 100%;
+  /* Set the height to 100% to fill the card */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Set the background color for the text */
+  z-index: 1;
+  /* Set the z-index to 1 to position the text on top */
+  opacity: 0;
+  /* Set the opacity to 0 to hide the text */
+  transition: opacity 1.3s ease-out;
+  /* Add a transition effect */
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 30px;
+  padding-top: 100px;
+}
+
+.card1:hover::before {
+  content: "Portfolio Showcase: Present your work with style using our visually captivating portfolio website solution that leaves a lasting impression.";
+
+  /* Add an empty content */
+  position: absolute;
+  /* Set the position to absolute to position the text on top */
+  top: 0;
+  /* Position the text on top */
+  left: 0;
+  /* Position the text on the left */
+  width: 100%;
+  /* Set the width to 100% to fill the card */
+  height: 100%;
+  /* Set the height to 100% to fill the card */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Set the background color for the text */
+  z-index: 1;
+  /* Set the z-index to 1 to position the text on top */
+  opacity: 0;
+  /* Set the opacity to 0 to hide the text */
+  transition: opacity 1.3s ease-out;
+  /* Add a transition effect */
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 30px;
+  padding-top: 100px;
+}
+
+.card2:hover::before {
+  content: "E-Commerce Solution: Elevate your business with our seamless e-commerce solution for a user-friendly online store that drives sales.";
 
   /* Add an empty content */
   position: absolute;
@@ -681,12 +743,12 @@ span {
 }
 
 .card:hover:before {
-  opacity: 1;
+  opacity: 1.5;
   background: #76ade151;
 }
 
 .card:hover .info {
-  opacity: 1;
+  opacity: 1.5;
   transform: translateY(0px);
 }
 

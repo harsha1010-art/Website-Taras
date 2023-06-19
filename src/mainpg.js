@@ -25,13 +25,13 @@ function Mainpg() {
                     stiffness: 500,
                     damping: 60
                 }} src="Group 5.png" alt="Astro-papi" className="astro" />
-            <motion.input initial={{ scale: 0 }}
+            <motion.button initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{
                     type: "spring",
                     stiffness: 400,
                     damping: 60
-                }} type="button" className='get-started' value='Get Started' />
+                }} type="button" className='get-started' value='Get Started' ><a href="#about" style={{ textDecoration: 'none', color: "black" }}>Get started</a></motion.button>
 
         </div>
 
