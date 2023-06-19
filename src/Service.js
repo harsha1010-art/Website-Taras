@@ -25,7 +25,7 @@ function Service() {
                         </div>
                         <div class="carousel-item">
                             <img src="Saly-1 10.png" alt="" className="monitor1" />
-                            <div className="subcomp"> <h1 className='slide1'>PPT Presentation</h1>
+                            <div className="subcomp"> <h1 className='slide1' style={{ display: 'inline' }}>Robotics Solutions</h1>
                                 <p className='para1'>News write-ups offer a great way to let clients know about new products and services, events, awards, and more. News write-ups offer a great way to let clients know about new products and services, events, awards, and more.
                                 </p></div>
                         </div>
