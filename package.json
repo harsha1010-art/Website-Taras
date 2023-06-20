@@ -2,7 +2,7 @@
   "name": "medium-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/harsha1010-art/Website-Taras",
+  "homepage": "https://harsha1010-art.github.io/Website-Taras/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
