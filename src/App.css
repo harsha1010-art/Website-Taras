@@ -1374,39 +1374,7 @@ span {
   .main {
     width: 210vh;
     height: 1100vh;
-  }
-
-  .card1 {
-    position: relative;
-    left: 150px;
-  }
-
-  .card11 {
-    position: relative;
-    left: 160px;
-  }
-
-  .card2 {
-    position: relative;
-    left: 160px;
-  }
-
-  .card3 {
-    position: relative;
-    left: 160px;
-  }
-
-  .service-head {
-    position: absolute;
-    left: 500px;
-  }
-
-}
-
-@media screen and (min-width: 400px) {
-  .main {
-    width: 200vh;
-    height: 1400vh;
+    overflow: hidden;
   }
 
   .card1 {
