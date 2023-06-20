@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/harsha1010-art/Website-Taras/static/css/main.a2fcb56c.css",
+    "main.js": "/harsha1010-art/Website-Taras/static/js/main.7b109337.js",
+    "static/js/787.b618b2e8.chunk.js": "/harsha1010-art/Website-Taras/static/js/787.b618b2e8.chunk.js",
+    "static/media/Group 1.png": "/harsha1010-art/Website-Taras/static/media/Group 1.b138ab651cc3feb49f53.png",
+    "index.html": "/harsha1010-art/Website-Taras/index.html",
+    "main.a2fcb56c.css.map": "/harsha1010-art/Website-Taras/static/css/main.a2fcb56c.css.map",
+    "main.7b109337.js.map": "/harsha1010-art/Website-Taras/static/js/main.7b109337.js.map",
+    "787.b618b2e8.chunk.js.map": "/harsha1010-art/Website-Taras/static/js/787.b618b2e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2fcb56c.css",
+    "static/js/main.7b109337.js"
+  ]
+}
