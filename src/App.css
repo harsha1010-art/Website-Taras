@@ -1369,3 +1369,36 @@ span {
   position: relative;
   top: 6700px;
 }
+
+@media screen and (max-width: 767px) {
+  .main {
+    width: 170vh;
+    height: 900vh;
+  }
+
+  .card1 {
+    position: relative;
+    left: 150px;
+  }
+
+  .card11 {
+    position: relative;
+    left: 160px;
+  }
+
+  .card2 {
+    position: relative;
+    left: 160px;
+  }
+
+  .card3 {
+    position: relative;
+    left: 160px;
+  }
+
+  .service-head {
+    position: absolute;
+    left: 500px;
+  }
+
+}

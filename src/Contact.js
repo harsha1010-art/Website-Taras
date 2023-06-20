@@ -56,7 +56,7 @@ export default function Contact() {
                             whileInView={{ opacity: 1, scale: 1, x: 0 }}
                             transition={{ duration: 1.2 }} whileHover={{ scale: 1.2 }}
                             onHoverStart={_e => { }}
-                            onHoverEnd={() => { }} whileTap={{ scale: 0.8 }} className="Send from-left" onClick={submit} >Send</motion.button>
+                            onHoverEnd={() => { }} whileTap={{ scale: 0.8 }} viewport={{ once: true }} className="Send from-left" onClick={submit} >Send</motion.button>
                     }
 
 
