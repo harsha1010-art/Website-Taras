@@ -14,6 +14,7 @@ function Service() {
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" id='service'>
@@ -30,10 +31,18 @@ function Service() {
                                 </p></div>
                         </div>
                         <div class="carousel-item">
-                            <img src="Rectangle1.png" alt="" className="monitor" />
+                            <img src="Saly-12.png" alt="" className="monitor-app" />
                             <div className="subcomp"> <h1 className='slide1'>App Development</h1>
                                 <p className='para1'>At Taras Company, we specialize in creating exceptional mobile applications that cater to your unique business needs. Our expert team combines innovative design with robust development to deliver user-friendly and feature-rich apps for iOS and Android platforms.
-                                </p></div>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Rectangle1.png" alt="" className="monitor" />
+                            <div className="subcomp" style={{ display: "inline-block" }}> <h1 className='slide1'>Excel Services</h1>
+                                <p className='para1'>At Taras Company, we specialize in creating exceptional mobile applications that cater to your unique business needs. Our expert team combines innovative design with robust development to deliver user-friendly and feature-rich apps for iOS and Android platforms.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

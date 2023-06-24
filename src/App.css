@@ -1,7 +1,7 @@
 .main {
   background: linear-gradient(45deg, #F3D7EF, #96DDFC, #F3D7EF);
   background-size: cover;
-  height: 1250vh;
+  height: 1150vh;
   width: 100%;
   scroll-behavior: smooth;
   margin: 0
@@ -439,6 +439,10 @@
   padding: 50px;
 }
 
+.carousel-item {
+  height: 600px;
+}
+
 .slide1 {
 
   position: relative;
@@ -483,6 +487,18 @@
 
 }
 
+.monitor-app {
+  height: 200px;
+  width: 200px;
+  align-self: center;
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: 45%;
+  overflow: visible;
+  z-index: 9999;
+}
+
 .subcomp {
 
   padding: 100px;
@@ -496,7 +512,7 @@
   display: flex;
   position: relative;
   top: 100px;
-  left: 43%;
+  left: 40%;
   overflow: visible;
   z-index: 9999;
 
@@ -1370,7 +1386,7 @@ span {
   top: 6700px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .main {
     width: 210vh;
     height: 1100vh;
@@ -1402,4 +1418,4 @@ span {
     left: 500px;
   }
 
-}
+} */

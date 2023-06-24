@@ -8,7 +8,7 @@ function Team3() {
                 <div class="card-body">
                     <motion.h5 initial={{ opacity: 0, scale: 0 }}
                         whileInView={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.8 }} viewport={{ once: true }} class="card-title3">Nagraj </motion.h5>
+                        transition={{ duration: 0.8 }} viewport={{ once: true }} class="card-title3">Nagaraj </motion.h5>
                     <motion.h6 initial={{ opacity: 0, scale: 0 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1 }} viewport={{ once: true }} class="card-subtitle3 mb-2 text-muted">AWS developer,Backend developer </motion.h6>
